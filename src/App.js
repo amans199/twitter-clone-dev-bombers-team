@@ -17,6 +17,8 @@ function App() {
         >
           Learn React
         </a>
+        <a className="btn btn-primary"
+        role="button">Bootstrap button</a>
       </header>
     </div>
   );
