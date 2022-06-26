@@ -1,5 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
@@ -17,8 +17,9 @@ function App() {
         >
           Learn React
         </a>
-        <a className="btn btn-primary"
-        role="button">Bootstrap button</a>
+        <a href="/" className="btn btn-primary mr-3" role="button">
+          Bootstrap button
+        </a>
       </header>
     </div>
   );
