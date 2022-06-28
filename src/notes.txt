@@ -1,0 +1,17 @@
+* To convert the project from j(sx or javascript) to (typescript or tsx)
+    1- run in terminal 
+        npm install --save typescript @types/node @types/react @types/react-dom @types/jest
+    2- change the extension of index.js (main file) to index.tsx
+    3- after makeing npm start to the compiler will create tsconfig.json if it didnot make it write in terminal 
+        tsc --init
+    4- change all the extension of the files that was .js or .jsx to .tsx
+    5- must edite tsconfig.json
+    6- const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
+    6- root must write in this way
+
+* To create material ui theme
+    1-first install materil ui dependancies
+    2-create MuiTheme component
+    3-add file theme.d.ts in src folder for some interfaces
+    4-https://www.youtube.com/watch?v=ZyQlpX7lCRE for more details
+    5-https://github.com/mui/material-ui/blob/master/packages/mui-material/src/styles/createPalette.d.ts
