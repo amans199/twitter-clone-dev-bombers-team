@@ -1,0 +1,40 @@
+@import '../assets/scss/index.scss';
+.left {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  top: 0;
+  left: 0;
+  z-index: -1;
+
+  > img {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+  }
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-75%, -50%);
+  width: 100%;
+  text-align: center;
+}
+.logo {
+  padding-left: 10px;
+  color: $Blue;
+  margin-bottom: 30px;
+  font-size: 3rem;
+  font-weight: bold;
+  left: 52%;
+  top: 10px;
+}
+.signup {
+  outline: none;
+  border: none;
+  > h5 {
+    font-size: 1px;
+    margin-bottom: 10px;
+  }
+}
