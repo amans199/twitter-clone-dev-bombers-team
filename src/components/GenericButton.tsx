@@ -9,7 +9,7 @@ const GenericButton = (props : propsType) => {
     return (
         <div>
             <Chip icon={props.icon} label={props.label} color='primary'
-            sx={{ bgcolor: 'secondary.contrastText', width: '250px', fontSize: '13px', fontWeight: 'bold', color: 'black' }}/>
+            sx={{ bgcolor: 'secondary.contrastText', width: '250px', fontSize: '13px', fontWeight: 'bold', color: 'black', cursor: 'pointer' }}/>
         </div>
     )
 }
