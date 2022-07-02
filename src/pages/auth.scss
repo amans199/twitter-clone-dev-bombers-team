@@ -1,4 +1,10 @@
 @import '../assets/scss/index.scss';
+@media screen and (max-width: 768px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .left {
   width: 100%;
   height: 100%;
@@ -10,7 +16,13 @@
   > img {
     height: 100%;
     width: 100%;
-    background-size: cover;
+  }
+  @media screen and (max-width: 768px) {
+    order: 2;
+    height: 250px;
+    > img {
+      background-size: cover;
+    }
   }
 }
 .center {
@@ -36,5 +48,16 @@
   > h5 {
     font-size: 1px;
     margin-bottom: 10px;
+  }
+}
+.right {
+  @media screen and (max-width: 768px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    order: 1;
+  }
+  > .title {
+    font-size: 60px;
   }
 }
