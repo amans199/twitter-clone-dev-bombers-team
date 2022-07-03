@@ -1,6 +1,6 @@
 import { Button, Box, Typography } from '@mui/material';
 import AppleIcon from '@material-ui/icons/Apple';
-import GenericButton from '../components/GenericButton';
+import GenericButton from './genericButton/GenericButton';
 
 const TestMuiTheme = () => {
     return (
