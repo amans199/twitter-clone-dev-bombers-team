@@ -7,7 +7,7 @@ import LoginIcon from '@material-ui/icons/AccountCircle';
 import LogoutIcon from '@material-ui/icons/ExitToApp';
 import TestMuiTheme from './components/TestMuiTheme';
 import MuiTheme from './modules/MuiTheme';
-
+import Sidebar from './components/Sidebar';
 
 const  App:FC = () => {
   return (
@@ -29,6 +29,7 @@ const  App:FC = () => {
           <Input />
       </div>
       </MuiTheme>
+      <Sidebar />
     </div>
   );
 }
