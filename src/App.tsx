@@ -7,6 +7,7 @@ import LoginIcon from '@material-ui/icons/AccountCircle';
 import LogoutIcon from '@material-ui/icons/ExitToApp';
 import TestMuiTheme from './components/TestMuiTheme';
 import MuiTheme from './modules/MuiTheme';
+import NewTweetButton from './components/newTweetButton';
 
 
 const  App:FC = () => {
@@ -27,6 +28,10 @@ const  App:FC = () => {
             Logout
           </Button>
           <Input />
+      <NewTweetButton  
+      color ='secondary'
+      label='See New Tweets' />
+        {/* </NewTweetButton> */}
       </div>
       </MuiTheme>
     </div>
